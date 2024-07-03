@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Home from './Home.tsx'
+import Home from './components/Home.tsx'
 
 export default function RoutePath() {
   return (

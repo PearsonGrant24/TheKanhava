@@ -1,6 +1,8 @@
 
 import './App.css';
+import { Header } from './app/components/Header.tsx';
 import Home from './app/components/Home.tsx';
+import RoutePath from './app/RoutePath.tsx';
 
 function App() {
   return (
@@ -9,8 +11,10 @@ function App() {
     // </div>
 
     <>
-      <Home/>
-
+      <Header>
+        <></>
+      </Header>
+      <RoutePath />
     </>
   );
 }
