@@ -9,22 +9,22 @@ const MyCollection = [
     {
         label: "1",
         imgPath:
-            "assets/bags.jpg",
+            "assets/pages/img/kanhava/bags.jpg",
     },
     {
         label: "2",
         imgPath:
-            "assets/bags_1.jpg",
+            "assets/pages/img/kanhava/bags_1.jpg",
     },
     {
         label: "3",
         imgPath:
-            "assets/bags_2.jpg",
+            "assets/pages/img/kanhava/bags_2.jpg",
     },
     {
         label: "4 ",
         imgPath:
-            "assets/bags_3.jpg",
+            "assets/pages/img/kanhava/bags_3.jpg",
     },
 ];
 const MyCollection1 = [
