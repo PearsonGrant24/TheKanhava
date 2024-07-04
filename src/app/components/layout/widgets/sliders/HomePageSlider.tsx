@@ -7,8 +7,7 @@ export const HomePageSlider:React.FunctionComponent = () : any | null => {
     const  [slides, setSlides] = useState<any>([1,2,3,4,5]);
 
   return (
-    <>
-    
+    <>    
         <section className="hero-slide-wrapper techex-landing-page">
 
             <Swiper autoplay={true} navigation={true} pagination={true}
