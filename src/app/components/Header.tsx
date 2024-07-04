@@ -63,9 +63,9 @@ const navigate = useNavigate();
             <nav className="navbar navbar-expand-lg navbar-light ">
                     <div className="header-logoh">
                         <div className="logoh7">
-                            {/* <a href="/Home"> */}
+                            <a href="/Home">
                                 <img className='logo' src="assets/KanhavaLogo01.PNG" alt="logo" />
-                            {/* </a> */}
+                            </a>
                         </div>
                         </div>
                     <button
