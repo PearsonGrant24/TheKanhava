@@ -46,14 +46,6 @@ const navigate = useNavigate();
                                     <a href=""><i className="fab fa-instagram"></i></a>
                                 </div>
                                 
-                                {/* <div className="lan-select ml-30">
-                                    <form>
-                                        <select onChange={(e)=>{ dispatchChangeCurrency(e.target.value) }}>
-                                            <option value="USD">USD - United States Dollars</option>
-                                            <option value="ZiG">ZiG - Zimbabwe Gold</option>
-                                        </select>
-                                    </form>
-                                </div> */}
                             </div>
                         </div>
                     </div>

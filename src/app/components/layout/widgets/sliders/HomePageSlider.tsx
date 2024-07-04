@@ -16,7 +16,7 @@ export const HomePageSlider:React.FunctionComponent = () : any | null => {
                 {slides.map((slide:any, slideIndex:number)=>(
                     <SwiperSlide>
                         <div className="single-slide bg-cover" key={slideIndex}
-                            style={{backgroundImage: "url('/assets/pages/img/shop-slider/slide3/bg2.svg')", }} >
+                            style={{backgroundImage: "url('/assets/pages/img/shop-slider/slide3/bg7.jpg')", }} >
                             <div className="container">
                                 <div className="row">
                                     <div className="col-3">
