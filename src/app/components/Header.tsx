@@ -61,13 +61,13 @@ const navigate = useNavigate();
             </div>
             <div className="main-header-wraper">
             <nav className="navbar navbar-expand-lg navbar-light ">
-                    <div className="header-logo">
+                    <div className="header-logoy">
                         <div className="logo">
                             <a href="/Home">
                             <img
                                 src="assets/pages/img/kanhava/logy.png"
-                                className="img-r"
-                                alt="loo"
+                                className="img-responsive"
+                                alt="loogo"
                             />
                             </a>
                         </div>
