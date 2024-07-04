@@ -1,6 +1,7 @@
 import React from 'react'
 import { HomePageSlider } from './layout/widgets/sliders/HomePageSlider.tsx'
 
+
 export default function AboutUs() {
   return (
     <>    
