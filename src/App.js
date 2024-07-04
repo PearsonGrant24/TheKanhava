@@ -1,8 +1,6 @@
-
 import './App.css';
 import { Footer } from './app/components/Footer.tsx';
 import { Header } from './app/components/Header.tsx';
-import Home from './app/components/Home.tsx';
 import RoutePath from './app/RoutePath.tsx';
 
 function App() {
@@ -16,7 +14,7 @@ function App() {
         <>
         </>
       </Header>
-      
+
       <RoutePath />
       <Footer>
         <>
