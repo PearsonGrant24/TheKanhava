@@ -761,7 +761,7 @@ export default function Home() {
                     </ul>
                 </div>
                     {/* <div>item</div> */}
-                    <div className="col-md-6 col-lg-2">
+                    <div className="col-sm-6 col-lg-2">
                     <div id="Sportsbags">Sports bags</div>
                         <div className="card border-0" style={{width: '11.2rem'}}>
                         {/* <div className="card-body"> */}
@@ -800,7 +800,7 @@ export default function Home() {
                         {/* </div> */}
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-2">
+                    <div className="col-sm-6 col-lg-2">
                         <br />
                         <div className="card border-0">
                         {/* <div className="card-body"> */}
@@ -836,7 +836,7 @@ export default function Home() {
                         </div> */}
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-2">
+                    <div className="col-sm-6 col-lg-2">
                         <br />
                         <div className="card  border-0" style={{width: '13.5rem'}}>
                         {/* <div className="card-body"> */}
@@ -874,7 +874,7 @@ export default function Home() {
                         {/* </div> */}
                     </div>
 
-                    <div className="col-md-6 col-lg-2">
+                    <div className="col-sm-6 col-lg-2">
                         {/* <br /> */}
                         
                         <div className="card p-4 mt-2 border-0" style={{width: '14.2rem'}} >
@@ -900,7 +900,7 @@ export default function Home() {
                 <br />
                 {/* #############  Backpacks ##################### */}
                 <div className="row">                
-                    <div className="col-sm-6 col-lg-3">
+                    <div className="col-sm-6 mb-3 col-lg-3 ">
                     <div id="Backpacks">Backpacks</div>
                         <div className="card  border-0" style={{ width: 254 }}>
                         {/* <div className="card-body"> */}
@@ -984,7 +984,7 @@ export default function Home() {
 
                     </div>
 
-                    <div className="col-sm-6 col-lg-3">
+                    <div className="col-sm-6 mb-3 col-lg-3">
                         <br />
                         <div className="card border-0" style={{ width: 254 }}>
                         {/* <div className="card-body"> */}
@@ -1058,7 +1058,7 @@ export default function Home() {
                         </div>                   
                     </div>
 
-                    <div className="col-sm-6 col-lg-3">
+                    <div className="col-sm-6 mb-3 col-lg-3">
                         <br />
                         <div className="card border-0" style={{ width: 254 }}>
                         {/* <div className="card-body"> */}
@@ -1135,10 +1135,8 @@ export default function Home() {
                         </div>
                     </div>
                     </div>
-
                     <br />
-
-                    <div className="col--6 col-lg-3">
+                    <div className="col-sm-6 mb-3 col-lg-3">
                         <br />
                         <div className="card mt-8 border-0" style={{ width: 254 }}>
                         {/* <div className="card-body"> */}
@@ -1225,7 +1223,7 @@ export default function Home() {
                 <br />
                 <div className="row">
                 {/* <div className="col-md-6 col-lg-3">                 */}
-                    <div className="col-sm-2 col-lg-4">
+                    <div className="col-sm-6 col-lg-4">
                     <div id="Luggagebags">Travel/Luggage bags</div>
                         <div className="card border-0" >
                         {/* <div className="card-body"> */}
@@ -1255,7 +1253,7 @@ export default function Home() {
                     </div>
                     {/* </div> */}
                     {/* <div>item</div> */}
-                    <div className="col-sm-2 col-lg-3">
+                    <div className="col-sm-6 col-lg-3">
                         <br />
                         <div className="card border-0" style={{width: '14.5rem'}}>
                         {/* <div className="card-body"> */}
@@ -1306,7 +1304,7 @@ export default function Home() {
                         {/* </div> */}
                         </div>
                     </div>
-                    <div className="col-sm-2 col-lg-2">
+                    <div className="col-sm-6 col-lg-2">
                         <br />
                         <div className="card border-0" style={{width: '14.3rem'}}>
                         {/* <div className="card-body"> */}
@@ -1356,7 +1354,7 @@ export default function Home() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-sm-2 col-lg-3">
+                    <div className="col-sm-6 col-lg-3">
                         <br />
                         <div className="card  border-0" style={{width: '14.5rem', paddingLeft:'8%'}}>
                         <div className="card-body">
@@ -1369,8 +1367,7 @@ export default function Home() {
                                 onClick={openLBag15Modal}
                             />
                         </a>
-                            <div>
-                                    
+                            <div>                                    
                                     <a
                                     href="#product-pop-up"
                                     className="btn btn-default fancybox-fast-view"
@@ -1382,9 +1379,7 @@ export default function Home() {
                         </div>
                       
                         </div>
-                    </div>
-
-                    
+                    </div>                    
                 </div>
 
                 <br />
@@ -1393,34 +1388,35 @@ export default function Home() {
                 <div className="sidebar col-md-6 col-lg-4">
                     <br />
                     <div id="Coolerbags">Cooler bags and Pencil cases</div>
-                    <div className="card mt-2 border-0" style={{width:'22.7rem'}}>
-                        {/* <div className="card-body"> */}
-                        <a
-                            href="#product-pop-up">
-                            <img
-                                src="assets/pages/img/kanhava/bags_25-1.jpg"
-                                className="img-responsive"
-                                alt="Berry Lace Dress"
-                                onClick={openLBag19Modal}
-                            />
-                        </a>
-                        <div>                                    
-                        <a
-                            href="#product-pop-up"
-                            className="btn btn-default fancybox-fast-view"
-                            onClick={openLBag19Modal}
-                        >
-                            View
-                        </a>
-                        {/* </div> */}
-
+                    <div className="col-sm-6 col-lg-3">
+                      <div className="card mt-2 border-0" style={{width:'22.7rem'}}>
+                          {/* <div className="card-body"> */}
+                          <a
+                              href="#product-pop-up">
+                              <img
+                                  src="assets/pages/img/kanhava/bags_25-1.jpg"
+                                  className="img-responsive"
+                                  alt="Berry Lace Dress"
+                                  onClick={openLBag19Modal}
+                              />
+                          </a>
+                          <div>                                    
+                          <a
+                              href="#product-pop-up"
+                              className="btn btn-default fancybox-fast-view"
+                              onClick={openLBag19Modal}
+                          >
+                              View
+                          </a>
+                          {/* </div> */}
+                          </div>
                         </div>
                         </div>
                     
                     </div>
                     {/* <div>item</div> */}
                     <br />
-                    <div className="col-md-6 col-lg-3">   
+                    <div className="col-sm-6 col-lg-3">   
                         <br />
                         <br />                 
                         <div className="card mt-2 border-0" style={{width: '14.4rem'}}>
@@ -1472,7 +1468,7 @@ export default function Home() {
                         {/* </div> */}
                         </div>
                     </div>
-                    <div className="col-md-6 col-lg-2">
+                    <div className="col-sm-6 col-lg-2">
                         <br />
                         <br />
                         <br />
@@ -1522,7 +1518,7 @@ export default function Home() {
                         </div>
                         </div>
                     </div>
-                    <div className="col-sm-2 col-lg-3">
+                    <div className="col-sm-6 col-lg-3">
                         <br />
                         <br />
                         <div className="card mt-4 border-0" style={{width: '14.5rem', paddingLeft:'2%'}}>
