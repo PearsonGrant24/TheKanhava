@@ -64,7 +64,7 @@ const navigate = useNavigate();
                     <div className="header-logo">
                         <div className="logo">
                             <a href="/Home">
-                                <img className={'logo'} src="assets/pages/img/KanhavaLogo01.png" alt="logo" />
+                                <img className={'logo'} src="assets/pages/img/kanhava/KanhavaLogo01.png" alt="logo" />
                             </a>
                         </div>
                         </div>
