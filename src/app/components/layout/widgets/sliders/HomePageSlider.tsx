@@ -36,11 +36,11 @@ export const HomePageSlider:React.FunctionComponent = () : any | null => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div>                            
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide>                    
                 ))}
-
+            <img src="assets/Capture.JPG" className="bg-cover " style={{width:"900%", height:"80px", background:'red'}} alt="" />
             </Swiper>
 
         </section>

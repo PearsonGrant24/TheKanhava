@@ -78,7 +78,7 @@ header.header-5 {
   content: "";
   height: 100%;
   position: absolute;
-  background: rgba(0, 0, 0, 0.25);
+  background: rgba(80, 121, 113, 0.25);
 }
 
 .preloader .animation-preloader .spinner {
@@ -216,7 +216,7 @@ header.header-5 #hamburger {
 }
 
 .footer-4 {
-  background-color: #000000;
+  background-color: transparent;
 }
 
 .footer-4 a:hover {
@@ -235,11 +235,11 @@ header.header-5 #hamburger {
 }
 
 .footer-4 {
-  z-index: 1;
+  z-index: 0;
   padding-top: 0;
   margin-top: 0;
   position: relative;
-  background-color: #211e3b;
+  background-color: transparent;
 }
 
 header.header-5 .top-header .header-cta ul li a i {

@@ -1,5 +1,6 @@
 import './App.css';
 import { Footer } from './app/components/Footer.tsx';
+import { Footer2 } from './app/components/Footer2.tsx';
 import { Header } from './app/components/Header.tsx';
 import RoutePath from './app/RoutePath.tsx';
 
@@ -20,6 +21,10 @@ function App() {
         <>
         </>
       </Footer>
+      {/* <Footer2>
+        <>
+        </>
+      </Footer2> */}
       
     </>
   );

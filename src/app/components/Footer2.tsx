@@ -1,21 +1,20 @@
-import React, { useState } from "react";
+import React from 'react'
 
 type FooterProps = {
     children: React.ReactNode;
 }
 
-export const Footer: React.FunctionComponent<FooterProps> = ({children, ...props}): any | null => {
+export const Footer2: React.FunctionComponent<FooterProps> = ({children, ...props}): any | null => {
+  return (
+    <>
+    <div style={{backgroundImage:"url('assets/footer.JPG')", backgroundRepeat:"no-repeat",backgroundSize:"contain"}}>
 
-    return (
-        <>
-        <footer>            
-            <div className="footer-4 footer-wrap" style={{backgroundImage:"url('assets/footer3.JPG')", backgroundRepeat:"no-repeat",backgroundSize:"contain"}}>           
-                <div className="footer-widgets">
+    <div className="footer-widgets">
                     <div className="container">
                         <div className="row justify-content-between">
                             <div className="col-md-6 col-xl-3 col-12 pr-xl-4">
-                                <div className="single-footer-wid site_footer_widget" id="About1">
-                                    <a href="AboutUs" >
+                                <div className="single-footer-wid site_footer_widget">
+                                    <a href="AboutUs">
                                         {/* <img src="/assets/pages/img/KanhavaLogo02.png" style={{background:"#313030"}} alt="" height={64}/> */}
                                         <div className="wid-title">
                                         <h4>ABOUT</h4>
@@ -23,8 +22,10 @@ export const Footer: React.FunctionComponent<FooterProps> = ({children, ...props
                                     </a>
                                     <p className="mt-4">
                                     Kanhava is a bag manufacturing company.
-                                    We dream of becoming the leading bag manufacturer in Zim and maybe regionally. We value quality, excellence, creativity, professionalism. We strive to meet and go beyond our customer's expectations....
-
+                                    We dream of becoming the leading bag manufacturer in Zim and 
+                                    maybe regionally. We value quality, excellence, creativity, 
+                                    professionalism. We strive to meet and go beyond our customer's 
+                                    expectations....
                                     </p>
                                 </div>
                             </div>
@@ -116,9 +117,7 @@ export const Footer: React.FunctionComponent<FooterProps> = ({children, ...props
                         </div>
                     </div>
                 </div> 
-                </div>               
-            </footer>          
-        </>
-    );
-
-};
+    </div>
+    </>
+  )
+}

@@ -3,7 +3,8 @@ import {HomePageSlider} from "./layout/widgets/sliders/HomePageSlider.tsx";
 import Modal from 'react-modal'; 
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography'
-import { useTheme } from "@material-ui/core/styles"; 
+import { useTheme } from "@material-ui/core/styles";
+import {useMediaQuery} from 'react-responsive' 
 
 const MyCollection = [
     {
@@ -696,7 +697,9 @@ export default function Home() {
     const goToPrevPicture = () => { 
         setActiveStep((prevIndex) => (prevIndex - 1 + MyCollection.length) % MyCollection.length); 
     };
-  
+    
+    
+    
   return (
       <>
     

@@ -4432,7 +4432,7 @@ header.stop .top-header {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("./img/slide_bg_circle.png");
+  /* background-image: url("./img/slide_bg_circle.png"); */
   width: 60%;
   height: 100%;
   content: "";
@@ -4628,7 +4628,7 @@ header.stop .top-header {
   background-image: -ms-linear-gradient(90deg, #211e3b 0%, rgba(33, 30, 59, 0) 100%);
   z-index: -1;
 }
-.hero-2 .single-slide .hero-contents {
+.hero-2 .single-slide .hero-contents {    
   position: relative;
 }
 .hero-2 .single-slide .hero-contents h1 {
@@ -4720,7 +4720,6 @@ header.stop .top-header {
   height: 24px;
   content: "";
 }
-
 .hero-3 {
   position: relative;
 }
@@ -4923,7 +4922,7 @@ header.stop .top-header {
   top: -100px;
   position: absolute;
   display: inline-block;
-  background-image: url("./img/home4/star.png");
+  /* background-image: url("./img/home4/star.png"); */
   background-repeat: no-repeat;
 }
 @media (max-width: 991px) {
@@ -5005,7 +5004,7 @@ header.stop .top-header {
   right: -80px;
   top: -80px;
   z-index: -1;
-  background-image: url("./img/home4/dot4.png");
+  /* background-image: url("./img/home4/dot4.png"); */
   background-repeat: no-repeat;
 }
 .hero-4 .single-slide .hero-banner::before {
@@ -7789,7 +7788,7 @@ header.stop .top-header {
   border-style: inherit;
   border-radius: 0;
   background-repeat: no-repeat;
-  background-image: url(./img/techex-landing-page/cta-overly.svg);
+  /* background-image: url(./img/techex-landing-page/cta-overly.svg); */
 }
 .cta-banner.style-3 .container-fluid h1 {
   font-weight: 900;
@@ -8799,7 +8798,7 @@ header.stop .top-header {
   }
 }
 .work-process-grid::after {
-  background-image: url("./img/work-process-line.png");
+  /* background-image: url("./img/work-process-line.png"); */
   width: 1543px;
   height: 154px;
   position: absolute;
@@ -12655,7 +12654,7 @@ header.stop .top-header {
   bottom: 85px */
 }
 
-#kt_modal_upgrade_plan{
-  position: fixed;
-  height: 68%;
+
+a.#About1{
+  color: red;
 }
