@@ -4,7 +4,7 @@ import Home from './components/Home.tsx'
 import AboutUs from './components/AboutUs.tsx'
 
 export default function RoutePath() {
-  return
+  return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/AboutUs" element={<AboutUs />} />
