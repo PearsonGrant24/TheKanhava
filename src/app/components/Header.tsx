@@ -29,14 +29,14 @@ const navigate = useNavigate();
                                 <ul>
                                     <li >
                                         <a href="mailto:sharon@kanhava.co.zw"><i
-                                        className="fal fa-envelope" style={{color:'#e6400c'}}></i>sharon@kanhava.co.zw</a>
+                                        className="fal fa-envelope" style={{color:'#e6400c'}}></i>pearsongrant@yahoo.com</a>
                                     </li>
                                     <li>
-                                        <a href="tel:+263 719339292"><i className="fal fa-phone"></i>+263 71 933 9292 / +263 78 121 5625</a>
+                                        <a href="tel:+263 771240325"><i className="fal fa-phone"></i>+263 77 124 0325 / +263 71 268 8838</a>
                                     </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div>git add
                         <div className="col-md-5 col-12">
                             <div className="header-right-cta d-flex justify-content-end">
                                 <div className="social-profile mr-30">
